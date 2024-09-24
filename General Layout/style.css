@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(to right, #660707, #130969);
+}
+.topbar{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 1em;
+}
+img{
+    height: 2em;
+    width: 2em;
+}
+.logo{
+    padding: 1em;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 4em;
+}
+.logo:hover{
+    background-color: #4b60809a;
+}
+.box{
+    padding: 1em;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.box:hover{
+    background-color: #4b60809a;
+}
+.settings{
+    padding: 1em;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 4em;
+    margin-right: 0;
+}
+.settings:hover{
+    background-color: #4b60809a;
+
+}
