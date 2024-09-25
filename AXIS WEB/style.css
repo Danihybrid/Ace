@@ -1,0 +1,131 @@
+body{
+    background: linear-gradient(to right, #660707, #130969)
+}
+header{
+        display: flex;
+        align-items: center; /* Vertically center items */        
+        color: white;
+        padding: 10px 10px;
+        position: absolute; /* Make the header fixed */
+        top: 0; /* Align it to the top */
+        left: 0;
+        right: 0;
+        background: rgba(29, 24, 180, 0.39);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        
+        
+}
+
+sup{
+     margin-left: -55px; 
+     margin-right: 60px;/* Adjust as needed for closer spacing */
+     font-size: 10px;
+     align-items: center;
+     margin-bottom: 
+    
+}
+.nav {
+    min-height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 35%;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+    color: inherit;
+    /* Ensure the icon inherits the text color */
+}
+.nav a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from .nav */
+}
+.profile{
+    object-position: right;
+    text-decoration: none; /* Remove underline */
+    color: inherit; 
+    position: absolute; /* Position the icon absolutely */
+    top: 38px; /* Distance from the top */
+    right: 250px; /* Distance from the right */
+    color: white; /* Icon color */
+    font-size: 15px;/* Icon size */
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #660707, #130969)
+}
+.set{
+    object-position: right;
+    text-decoration: none; /* Remove underline */
+    color: inherit; 
+    position: absolute; /* Position the icon absolutely */
+    top: 44px; /* Distance from the top */
+    right: 40px; /* Distance from the right */
+    color: white; /* Icon color */
+    font-size: 20px;/* Icon size */
+}
+.home:hover{
+    color: darkgray;
+    
+}
+.post:hover{
+    color: darkgray;
+    
+}
+.search:hover{
+    color: darkgray;
+    
+}
+.notif:hover{
+    color: darkgray;
+    
+}
+.profile:hover{
+    color: darkgray;
+    font-size: 20px;
+}
+.set:hover{
+    color: darkgray;
+    font-size: 25px;
+}
+img{
+    height: 2em;
+    width: 2em;
+}
+.logo{
+    margin-left: 5%;
+    margin-right: 27%;
+    font-size: 40px;
+    object-position: left;
+    margin-bottom: 0;   
+}
+
+.page{
+    text-align: center;
+    padding: 50px;
+    height: 1000px;
+    background: rgba(236, 7, 7, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    margin-top: 180px;
+    width: 700px;
+    margin-left: 20%;
+    margin-right: 30%;  
+    
+}
+input[type="text"], textarea {
+            width: 90%; /* Full width */
+            padding: 10px; /* Padding */
+            margin-top: -10px; /* Space above */
+            object-position: center;
+            border-radius: 10px; /* Rounded corners */
+            font-size: 16px; /* Font size */
+            margin-left: -10px;
+            
+}
