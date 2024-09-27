@@ -8,15 +8,18 @@ body{
     background-image: linear-gradient(to right, rgb(124, 17, 17), rgb(19, 9, 92));
 }
 .topbar{
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 50px;
+    padding: 1em 3em;
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(10, 13, 36, 0.514);
+    background-color: rgba(91, 98, 160, 0.178);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
 }
 .logo img{
     width: 30%;
