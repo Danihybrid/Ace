@@ -76,15 +76,15 @@ body{
     flex-direction: column;
     gap: 1.5em;
 }
+.followers img{
+    border-radius: 50%;
+    width: 2.25em;
+}
 .followers p{
     position: relative;
     display: flex;
     align-items: center;
     gap: 1.5em;
-}
-.followers img{
-    border-radius: 50%;
-    width: 2.25em;
 }
 span{
     color: rgb(139, 139, 139);
