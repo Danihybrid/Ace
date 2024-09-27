@@ -5,33 +5,33 @@
     font-weight: 500;
 }
 body{
-    background-image: linear-gradient(to right, rgb(124, 17, 17), rgb(19, 9, 92));    
-    height: 1200px;
+    background-image: linear-gradient(to right, rgb(124, 17, 17), rgb(19, 9, 92));
 }
 .topbar{
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 50px;
     padding: 1em 50px;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: rgba(10, 13, 36, 0.514);
 }
 .logo img{
     width: 30%;
-    padding-left: 10px;
 }
-.icons img{
-    padding-inline: 10px;
-    width: 25px;
-    filter: invert(100%);
+.icons{
+    display: flex;
+    gap: 2em;
 }
-.searchicon{
-    background-color: rgba(21, 24, 59, 0.467);
-    border-radius: 10px;
+.icons a{
+    font-size: 1.8em;
+    color: whitesmoke;
 }
-.icons img:hover{
-    background-color: rgba(21, 24, 59, 0.467);
-    border-radius: 10px;
+.icons a:hover{
+    background-color: rgba(61, 71, 180, 0.467);
+    border-radius: 1em;
 }
 .content{
     display: flex;
