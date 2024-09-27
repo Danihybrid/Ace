@@ -24,36 +24,12 @@ body{
 .logo img{
     width: 30%;
 }
-.icons{
-    display: flex;
-    gap: 2em;
-}
-.icons a{
-    font-size: 1.8em;
-    color: whitesmoke;
-}
-.icons a:hover{
-    background-color: rgba(61, 71, 180, 0.467);
-    border-radius: 1em;
-}
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1em 350px 0 300px;
-    padding: 2em;
-    gap: 1em;
-    height: 1000px;
-    border-radius: 10px;
-    background-color: rgba(16, 18, 41, 0.295);
-    color: rgb(230, 230, 230);
-}
 .searchbar{
     display: flex;
     align-items: center;
     gap: 0.5em;
     padding: 0.5em 1em;
-    border-radius: 16px;
+    border-radius: 1em;
     background-color: rgba(109, 109, 117, 0.467);
 }
 .searchbar img{
@@ -65,6 +41,33 @@ body{
     outline: none;
     border: none;
     background-color: transparent;
-    color: rgb(230, 230, 230);
+    color: whitesmoke;
     width: 500px;
+}
+.icons{
+    display: flex;
+    gap: 8px;
+}
+.icons a{
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+.icons a:hover{
+    background-color: rgba(61, 71, 180, 0.467);
+    border-radius: 0.5em;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 330px;
+    padding: 1em;
+    gap: 1em;
+    height: 400px;
+    width: 520px;
+    border-radius: 10px;
+    background-color: rgba(16, 18, 41, 0.295);
+    color: whitesmoke;
 }
