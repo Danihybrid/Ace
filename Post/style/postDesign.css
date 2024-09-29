@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 500;
+}
+body{
+    background-image: linear-gradient(to right, rgb(124, 17, 17), rgb(19, 9, 92));
+}
+.topbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(91, 98, 160, 0.178);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+}
+.logo img{
+    width: 30%;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background-color: rgba(109, 109, 117, 0.467);
+}
+.searchbar img{
+    width: 14px;
+    height: 14px;
+    filter: opacity(30%);
+}
+.searchbar input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    width: 500px;
+}
+.icons{
+    display: flex;
+    gap: 8px;
+}
+.icons a{
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+.icons a:hover{
+    background-color: rgba(61, 71, 180, 0.467);
+    border-radius: 0.5em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(100px + 2em);
+    margin-left: 330px;
+    padding: 1em;
+	height: auto;
+    width: 610px;
+    background-color: rgba(16, 18, 41, 0.2);
+    color: whitesmoke;
+	border-radius: 20px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+h3{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: default;
+}
+.border{
+	justify-content: center;
+	align-items: center;
+}
+.dpName{
+	display: flex;
+}
+#dp{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#dp img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#name{
+	margin-top: 20px;
+	margin-left: 5px;
+	cursor: default;
+}
+#comment{
+	margin-left: 74px;
+	margin-right: 10px;
+}
+textarea{
+	color: white;
+	display: flex;
+	resize: none;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border: none;
+	width: 85%;
+	max-width: 100%;
+	height: auto;
+	border-color: transparent;
+	background-color: transparent;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+.anyPost {
+    display: flex;
+    justify-content: space-between;
+}
+.option{
+	background-color: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	color: white;
+}
+.optColor{
+	color: white;
+	background-color: gray;
+}
+input[type=button]{
+	background-color: transparent;
+	border: .2px solid;
+	border-color: white;
+	border-radius: 20px;
+	width: 50px;
+	height: 25px;
+	cursor: pointer;
+	color: white;
+}
+
+
+
+
