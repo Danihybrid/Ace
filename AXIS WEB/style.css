@@ -1,0 +1,333 @@
+body{
+    background: linear-gradient(to right, #660707, #130969);
+}
+header{
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-between;
+        position: fixed;
+        top: 0; 
+        left: 0;
+        right: 0;
+        background-color: rgba(91, 98, 160, 0.178);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
+        backdrop-filter: blur(6.2px);
+        -webkit-backdrop-filter: blur(6.2px);
+        height: 100px;
+        z-index: 1000;
+}
+h4{
+    color: darkgray;
+    text-decoration-line: none;
+}
+a{
+    text-decoration-line: none;
+    color: inherit;
+}
+table{
+    margin-left: -40px;
+}
+.table{  
+     width: 100%;
+     border: collapse;
+     position: absolute;
+}
+td{
+    color: white;
+    white-space: nowrap; 
+    overflow: hidden;   
+    padding: 5px; 
+}
+.fafa{
+    background-color: darkgray;
+    border-radius: 10px;
+    background: rgba(39, 57, 180, 0.49);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    
+}
+h6 {
+     margin-left: auto; 
+     margin-right: auto;
+     font-size: 10px;
+     align-items: center;
+     margin-top: 100px;
+}
+h2{
+    position: fixed;
+    top: 20px;
+    margin: 0;
+    padding: 2px;
+    border-radius: 5px; 
+    color: whitesmoke;
+    
+}
+.nav {
+    position: relative;
+    top: 30px;
+    display: flex;
+    right: 100px;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    color: whitesmoke;
+    text-decoration: none; 
+    color: inherit; 
+    font-size: 1.5em;
+    margin-bottom: 45px;
+    
+    
+}
+
+.nav a {
+    text-decoration: none; 
+    color: inherit; 
+    padding: 5%;
+}
+
+a:hover{
+    background-color: rgba(61, 71, 180, 0.467);
+}
+img{
+    height: 2em;
+    width: 2em;
+}
+.logo{
+    margin-left: 5%;
+    margin-right: 27%;
+    font-size: 40px;
+    object-position: left;
+    margin-bottom: 0;   
+}
+
+.page{
+    text-align: center;
+    padding: 40px;
+    height: 20px;
+    background: rgba(236, 7, 7, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    margin-top: 140px;
+    width: 700px;
+    margin-left: 20%;
+    margin-right: 30%;  
+    
+}
+page{
+    align-items: center;
+}
+.page i{
+    color: whitesmoke;
+    position: absolute;
+    object-position: right;
+    right: 25px;
+    bottom: 30px;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none; 
+    color: whitesmoke;
+    
+}
+.page i:hover{
+    background-color: rgba(236, 7, 7, 0.14);
+    
+}
+.page input{
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    width: 80%;
+    position: absolute;
+    right: 70px;
+}   
+.page1{
+    text-align: center;
+    padding: 50px;
+    height: 500px;
+    background: rgba(236, 7, 7, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    margin-top: 50px;
+    width: 685px;
+    margin-left: 20%;
+    margin-right: 30%;  
+}
+.mess{
+    padding: 60px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(34, 33, 33, 0.47);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 0;
+    margin-right: 0%;  
+    position: fixed;
+    top: 150px;
+    
+    
+}
+input[type="text"], textarea {
+    width: 85%;
+    padding: 10px; 
+    margin-top: -10px; 
+    object-position: center;
+    border-radius: 10px; 
+    font-size: 16px; 
+    margin-left: -10px;
+}
+.searchbar{
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 16px;
+    background: rgba(55, 48, 48, 0.62);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: relative;
+    top: 30px;
+    display: flex;
+    right: 240px;
+    font-size: 1.2em;
+    margin-bottom: 45px;
+    
+        
+}
+.searchbar input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(230, 230, 230);
+    width: 500px;
+}
+button{
+    cursor: pointer;
+    background-color: #130969;
+    width: 55px;
+    color: aliceblue;
+    border-radius: 50px;
+    
+}
+a:hover{
+    background-color: rgba(61, 71, 180, 0.467);
+}
+
+.active{
+    padding: 60px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(34, 33, 33, 0.47);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 0;
+    margin-right: 0%;  
+    position: fixed;
+    top: 150px;
+    right: 20px; 
+}
+.active h2{
+    position: absolute;
+    right: 43px;
+}
+.active td{
+    position: relative;
+    right: 15px;
+    font-size: 15
+}
+.ih{
+    color: rgb(0, 255, 0);
+    font-size: 10px;
+}
+.active tr{
+    margin-bottom: 30px;
+}
+
+.tan img{
+    border-radius: 50%;
+    font-size: 20px;
+    width: 45px;
+    cursor: pointer;
+}
+
+
+
+.post {
+    background: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+            
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.post-header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.post-image {
+    width: 100%;
+    height: 400px;
+}
+.post-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.reactions {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+     transition: transform 0.1s;
+}
+.icon:hover{
+    transform: scale(2);
+}
+.com {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.footer {
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
