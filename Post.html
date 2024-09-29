@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Webpage</title>
+    <link rel="icon" href="images/Accxes.png">
+    <link rel="stylesheet" href="style/postDesign.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Top Bar/Window-->
+    <div class="topbar">
+
+        <!--Logo-->
+        <div class="logo">
+            <img src="images/Accxes.png">
+        </div>
+
+        <!--Search Bar-->
+        <div class="searchbar">
+            <img src="images/search.png">
+            <input type="search" placeholder="Search...">
+        </div>
+
+        <!--Icons-->
+        <div class="icons">
+            <a href="#home"><i class="fa fa-home"></i></a>
+            <a href="#profile"><i class="fa fa-user"></i></a>
+            <a href="#post"><i class="fa fa-pencil"></i></a>
+            <a href="#notif"><i class="fa fa-bell"></i></a>
+            <a href="#settings"><i class="fas fa-cog icon"></i></a>
+        </div>
+    </div>
+
+    <!--Post-->
+    <div class="container">
+		<h3>New post</h3>
+		
+			<div class = "border" >
+				<div class = "dpName">
+					<p id = "dp"><img src="Images/jun.jpg" alt="User Avatar"></p>
+					<p id="name">Jun Jun</p>
+				</div>
+				<textarea id="comment" rows="4" cols="50" placeholder="Any ideas to share?"></textarea>
+			</div>
+			
+			<div class = "anyPost">
+				<select class = "option"> 
+					<option class = "optColor" value ="Anyone">Anyone can reply and Quote</option>
+					<option class = "optColor" value ="Your Friend">Your Friend can reply and Quote</option>
+					<option class = "optColor" value ="Mentioned only">Profile you mention can reply and Quote</option>
+				</select>
+				
+				<input type = "button" value = "Post">
+			</div>
+		
+	</div>
+	
+</body>
+</html>
