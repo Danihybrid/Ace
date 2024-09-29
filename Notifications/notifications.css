@@ -64,9 +64,30 @@ body{
     margin-left: 330px;
     padding: 1em;
     gap: 2em;
-    width: 520px;
+	height: 500px;
+    width: 610px;
     background-color: rgba(16, 18, 41, 0.295);
     color: whitesmoke;
+	
+	overflow-y: auto;
+	overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 20px;
 }
 .container h3{
     text-align: center;
@@ -76,16 +97,78 @@ body{
     flex-direction: column;
     gap: 1.5em;
 }
-.followers img{
-    border-radius: 50%;
-    width: 2.25em;
-}
 .followers p{
     position: relative;
     display: flex;
     align-items: center;
     gap: 1.5em;
 }
+.followers img{
+    border-radius: 50%;
+    width: 2.25em;
+	overflow; auto;
+}
 span{
     color: rgb(139, 139, 139);
+}
+.notif:hover{
+	background-color: rgba(135, 136, 155, 0.467);
+    border-radius: 0.2em;
+	padding: .2em;
+}
+
+
+.notif{
+	display: flex;
+	justify-content: space-between;
+}
+.pad{
+	padding: 5px;
+}
+.fRFlex{
+	display: flex;
+	padding: 5px;
+}
+.friendReq{
+	width: 60px;
+	height: 10px;
+	text-align: center;
+}
+#fReq1{
+	background-color:  #842067;
+	border-radius: 4px;
+	margin-right: 7px;
+	color: white;
+	padding: 5px;
+	font-size: 12px;
+}
+#fReq1:hover{
+	background-color: #A82883;
+    border-radius: 0.2em;
+}
+#dReq1{
+	background-color:  white;
+	border-radius: 4px;
+	color: black;
+	padding: 5px;
+	font-size: 12px;
+}
+#fReq2{
+	background-color:  transparent;
+	border-radius: 4px;
+	color: black;
+	padding: 5px;
+	font-size: 12px;
+}
+#dReq2{
+	background-color:  transparent;
+	border-radius: 4px;
+	color: transparent;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.nameAbs{
+	padding: 5px;
+	white-space: nowrap;
 }
